@@ -145,28 +145,44 @@ nav {
     border-radius: 4px;
 }
 
-.btn1:hover{
+.btn1:hover {
     background-color: transparent;
     color: black;
     border: 1px solid black;
     transition: 0.5s;
 }
 
-.card{
+.card {
     border: none;
     outline: none;
+    box-shadow: -8px 6px 89px -65px rgba(0, 0, 0, 0.75);
 }
 
-.card p{
+.card p {
     color: gray;
 }
 
 
-.circle{
+.circle {
     height: 70px;
     width: 70px;
     background-color: lightgray;
     color: black;
     padding: 12px;
     font-size: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.circle i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card:hover .circle{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
 }
