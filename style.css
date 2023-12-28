@@ -134,3 +134,20 @@ nav {
         width: 98%;
     }
 }
+
+.btn1 {
+    height: 40px;
+    width: 145px;
+    outline: none;
+    border: none;
+    background-color: rgb(233, 20, 109);
+    color: #fff;
+    border-radius: 4px;
+}
+
+.btn1:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    transition: 0.5s;
+}
