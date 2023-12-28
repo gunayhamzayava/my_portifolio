@@ -166,7 +166,7 @@ nav {
 .circle {
     height: 70px;
     width: 70px;
-    background-color: lightgray;
+    background-color: rgb(204, 83, 133);
     color: black;
     padding: 12px;
     font-size: 30px;
@@ -179,9 +179,10 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
 }
 
-.card:hover .circle{
+.card:hover .circle {
     background-color: black;
     color: white;
     transition: 0.5s;
