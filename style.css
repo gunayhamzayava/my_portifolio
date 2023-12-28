@@ -151,3 +151,22 @@ nav {
     border: 1px solid black;
     transition: 0.5s;
 }
+
+.card{
+    border: none;
+    outline: none;
+}
+
+.card p{
+    color: gray;
+}
+
+
+.circle{
+    height: 70px;
+    width: 70px;
+    background-color: lightgray;
+    color: black;
+    padding: 12px;
+    font-size: 30px;
+}
